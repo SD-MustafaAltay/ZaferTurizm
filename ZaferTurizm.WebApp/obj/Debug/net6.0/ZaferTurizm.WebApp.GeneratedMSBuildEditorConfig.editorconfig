@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ZaferTurizm.WebApp
+build_property.RootNamespace = ZaferTurizm.WebApp
+build_property.ProjectDir = /Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/BusTrip/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVzVHJpcC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/BusTrip/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVzVHJpcC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/Ticket/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlja2V0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/Ticket/TicketsOfBusTrip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlja2V0L1RpY2tldHNPZkJ1c1RyaXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/VehicleDefinition/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZURlZmluaXRpb24vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/VehicleDefinition/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZURlZmluaXRpb24vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/VehicleDefinition/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZURlZmluaXRpb24vVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/VehicleMake/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZU1ha2UvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/VehicleMake/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZU1ha2UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/VehicleMake/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZU1ha2UvVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/VehicleModel/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZU1vZGVsL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/VehicleModel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZU1vZGVsL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustafa/Downloads/ZaferTurizm/ZaferTurizm.WebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-313trbn6w8

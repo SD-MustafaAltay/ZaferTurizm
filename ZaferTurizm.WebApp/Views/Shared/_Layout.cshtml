@@ -1,0 +1,144 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ZaferTurizm.WebApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ZaferTurizm.WebApp.styles.css" asp-append-version="true" />
+    <style>
+
+        .indexx {
+            background-image: url('https://www.zaferturizm.com.tr/Upload/1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 75vh;
+            width: 1415px;
+        }
+        .marka {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 75vh;
+            width: 1415px;
+            
+        }
+        .sefer {
+         
+            height: 75vh;
+            width: 1415px;
+        }
+
+        .navbar { background-color: #484848; }
+.navbar .navbar-nav .nav-link { color: #fff; }
+.navbar .navbar-nav .nav-link:hover { color: #fbc531; }
+.navbar .navbar-nav .active > .nav-link { color: #fbc531;        }
+
+footer a.text-light:hover { color: #fed136!important; text-decoration: none; }
+footer .cizgi { border-right: 1px solid #535e67; }
+    </style>
+</head>
+<body>
+    <header style="padding-top:10px">
+        <!--- Navbar --->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="nav-link">
+
+                    <img src="https://s3.eu-central-1.amazonaws.com/static.obilet.com/images/partner/2662-sm.png" style="width:120px" alt="Logo">
+                </a>
+                <div class="collapse navbar-collapse" id="nvbCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item pl-1">
+                            <a asp-area="" asp-controller="Home" asp-action="Index" class="nav-link"><i class="fa fa-home fa-fw mr-1"></i>Anasayfa</a>
+                        </li>
+
+                        <li class="nav-item pl-1">
+                            <a class="nav-link" asp-controller="VehicleMake"><i class="fa fa-info-circle fa-fw mr-1"></i>Markalar</a>
+                        </li>
+                        <li class="nav-item pl-1">
+                            <a class="nav-link" asp-controller="VehicleModel"><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Modeller</a>
+                        </li>
+                        <li class="nav-item pl-1">
+                            <a class="nav-link" asp-controller="VehicleDefinition"><i class="fa fa-user-plus fa-fw mr-1"></i>Araç Tanımları</a>
+                        </li>
+                        <li class="nav-item pl-1">
+                            <a class="nav-link" asp-controller="BusTrip"><i class="fa fa-sign-in fa-fw mr-1"></i>Seferler</a>
+                        </li>
+                        <li class="nav-item pl-1">
+                            <a class="nav-link" asp-controller="Ticket"><i class="fa fa-sign-in fa-fw mr-1"></i>Satılan Bilet İşlemleri</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--# Navbar #-->
+    </header>
+
+    <div class="container" style="margin:0">
+        <main role="main" class="">
+            @RenderBody()
+        </main>
+    </div>
+
+  
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+
+
+
+
+
+<!--- Footer --->
+<footer>
+    <div class="jumbotron jumbotron-fluid bg-secondary p-0 mt-0 mb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 cizgi">
+                    <div class="card bg-secondary border-0">
+                        <div class="card-body text-light text-center">
+                            <h5 class="card-title text-white" >Telif Hakkı</h5>
+                            <p class="d-inline lead">
+                                Tüm Hakları Zafer Turizm'e Saklıdır © 2023<br/>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 cizgi">
+                    <div class="card bg-secondary border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-white">Sistem Danışmanı</h5>
+                            <a class="text-light d-block lead" style="margin-left: -20px" href="#"><i class="fa fa-phone mr-2"></i>+90 (000) 000 0 000</a>
+                            <a class="text-light d-block lead" href="#"><i class="fa fa-envelope mr-2"></i>iletisim@zaferturizm.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card bg-secondary border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-white">Sosyal Medya</h5>
+
+                            <a class="text-light" href="#"><i class="fa fa-facebook-square fa-fw fa-2x"></i></a>
+
+                          
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--# Footer #-->
